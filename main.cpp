@@ -1,10 +1,11 @@
 #include <iostream>
+#include <string>
 
 using namespace std;
 
 int main() {
-    string name;
-    cout << "Enter player name: " << flush;
+    std::string name;
+    std::cout << "Enter player name: " << std::flush;
     cin >> name;
 
     return 0;
