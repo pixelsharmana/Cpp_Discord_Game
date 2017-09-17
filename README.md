@@ -6,4 +6,4 @@ A game made by C++ Discord.
 * Each commit may have no more than 2 remove lines.
 * Altering an existing line counts as both removing and adding a line.
 * Each change must compile, and may not crash the game.
-* You may make a commit once per day, or if your last commit is two commits old.
+* You may make a commit once per day, or if your last commit is at least two commits old.
