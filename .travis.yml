@@ -1,0 +1,20 @@
+language: cpp
+os: linux
+dist: trusty
+script: make all
+compiler:
+  - clang
+  - gcc
+install:
+  - if [ "$CXX" = "clang++" ]; then export CC="clang-4.0" CXX="clang++-4.0"; fi
+  - if [ "$CXX" = "g++" ]; then export CC="gcc-6" CXX="g++-6"; fi
+addons:
+  apt:
+    sources:
+      - ubuntu-toolchain-r-test
+      - llvm-toolchain-trusty-4.0
+    packages:
+      - g++-6
+      - libboost-test1.55-dev
+      - clang-4.0
+      - libboost-test1.55-dev 
