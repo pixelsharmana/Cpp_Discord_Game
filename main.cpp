@@ -1,6 +1,11 @@
 #include <iostream>
 #include <string>
 
+template<typename T>
+T prompt(std::string message) {
+    T value;
+    return value;
+}
 int main() {
     std::string name;
     std::cout << "Enter player name: " << std::flush;
