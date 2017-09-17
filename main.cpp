@@ -1,6 +1,8 @@
 #include <iostream>
 #include <string>
 
+#include "player.h"
+
 template<typename T>
 T prompt(std::string message) {
     std::cout << message;
