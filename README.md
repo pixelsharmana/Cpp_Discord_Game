@@ -14,3 +14,12 @@ We developped a top-secret, state-of-the-art compression technology to help us i
 * Altering an existing line counts as both removing and adding a line.
 * Each change must compile, and may not crash the game.
 * You may make a commit once per day, or if your last commit is at least two commits old.
+
+# How to Participate
+1. Get a GitHub account.
+2. Fork the discord game repo.
+3. Install git on your computer.
+4. Clone your fork.
+5. Make your changes.
+6. Commit and push those changes.
+7. Create a pull request on GitHub.
